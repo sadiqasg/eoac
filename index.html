@@ -27,10 +27,49 @@
                         ezem osakwe &
                         <br>
                         company
+                        <a href="#" class="close" id="close"></a>
                     </a>
                     <div class="d-none d-sm-none d-lg-block brand-icon-section mx-auto order-0 w-75 d-flex justify-content-end">
                         <div class="highlight-main brand-icon d-flex align-items-center justify-content-center">
-                            <i class="fas fa-th"></i>
+                            <div class="dropdown">
+                                <i
+                                    class="fas fa-th"
+                                    class="dropdown-toggle"
+                                    type="button"
+                                    id="dropdownMenuButton"
+                                    data-mdb-toggle="dropdown"
+                                    aria-expanded="false"
+                                    onclick="closeNav()"
+                                ></i>
+                                <!-- <button
+                                  class="btn dropdown-toggle"
+                                  type="button"
+                                  id="dropdownMenuButton"
+                                  data-mdb-toggle="dropdown"
+                                  aria-expanded="false"
+                                >
+                                  Dropdown button
+                                </button> -->
+                                <ul class="dropdown-menu highlight-main" aria-labelledby="dropdownMenuButton">
+                                    <ul class="dropdown-list">
+                                        <li class="logo-light">
+                                            <img src="./assets/images/logo-light.svg" alt="logo" class="d-block img-fluid">
+                                        </li>
+                                        <li>
+                                            <a class="btn shadow-none menu-header">Our Buildings</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="./details.html">Ambassador Albert Osakwe’s House</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Pinion Towers</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="https://www.abehsignatureapartments.com/">Abeh Signature Appartments</a>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <!-- <button
@@ -141,10 +180,10 @@
                                 <div class="col">
                                     <div class="card h-100" data-aos="fade-down-left" data-aos-duration="1500">
                                         <div class="bg-image">
-                                            <img src="./assets/images/projects-2.png" class="img-fluid" alt="Sample">
+                                            <img src="./assets/images/pinon_tower.jpeg" class="img-fluid" alt="Sample">
                                             <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);width: 50%;">
                                                 <div class="d-flex justify-content-center align-items-center h-100">
-                                                    <p class="text-white mb-0">CEO Towers</p>
+                                                    <p class="text-white mb-0">Pinion Towers</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -153,7 +192,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col">
+                                <!-- <div class="col">
                                     <div class="card h-100" data-aos="fade-up-right" data-aos-duration="1500">
                                         <div class="bg-image">
                                             <img src="./assets/images/header3.png" class="img-fluid" alt="Sample">
@@ -167,19 +206,19 @@
                                             Learn more
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="col">
                                     <div class="card h-100" data-aos="fade-up-left" data-aos-duration="1500">
                                         <div class="bg-image">
-                                            <img src="./assets/images/header1.png" class="img-fluid" alt="Sample">
+                                            <img src="./assets/images/abeh_signature.jpeg" class="img-fluid" alt="Sample">
                                             <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);width: 50%;">
                                                 <div class="d-flex justify-content-center align-items-center h-100">
-                                                    <p class="text-white mb-0">Abeh Court</p>
+                                                    <p class="text-white mb-0 w-75">Abeh Signature Appartments</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="card-footer highlight-main">
-                                            Learn more
+                                            <a href="https://www.abehsignatureapartments.com/" target="_blank">Learn more</a>
                                         </div>
                                     </div>
                                 </div>
