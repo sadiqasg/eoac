@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.navbar-brand {
+  line-height: .9em;
+  letter-spacing: .3em;
+}
+#about, #projects {
+  width: 70vw;
+}
+.card {
+  box-shadow: none;
+}
+#projects img {
+  display: block;
+  width: 90%;
+}
+
+#contact {
+  margin-top: 5em;
+}
+
+#contact .row {
+  width: 70%;
+  margin: 0 auto;
+}
+.list-group {
+  list-style: none;
+}
+
+.card-title {
+  background-color: lightseagreen;
+  color: #fff;
+  padding: .3em 1em;
+  width: 12em;
+  margin-top: -2em;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.caret {
+  float: right;
+}
+
+#features {
+  background-color: lightseagreen;
+  padding: 2em 0;
+}
+
+#feature-images {
+  width: 50vw;
+  display: flex;
+  margin: 0 auto;
+}
+
+#feature-images img {
+  width: 300px;
+}
+#feature-images .card {
+  margin-right: 5px;
+}
