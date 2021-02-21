@@ -21,7 +21,7 @@
     <body>
         <header>
             <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <a class="navbar-brand text-uppercase text-warning" href="/">
                         Abeh
@@ -51,8 +51,8 @@
             <!-- Navbar -->
             <!-- Background image -->
             <div class="p-5 text-center bg-image" style="
-                background-image: url('https://mdbootstrap.com/img/new/slides/041.jpg');
-                height: 400px;
+                background-image: url('./assets/images/AbehSignature/converted.jpg');
+                height: 500px;
               ">
                 <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
                     <div class="d-flex justify-content-center align-items-center h-100">
@@ -91,11 +91,13 @@
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9">
-                                    <iframe
-                                      src="https://www.youtube.com/embed/vlDzYIIOYmM"
-                                      title="YouTube video"
+                                    <video src="./assets/images/AbehSignature/WhatsApp Video 2021-01-28 at 14.16.17.mp4" controls></video>
+                                    <!-- <iframe
+                                      src="./assets/images/AbehSignature/WhatsApp Video 2021-01-28 at 14.16.17.mp4"
+                                      title="home video"
                                       allowfullscreen
-                                    ></iframe>
+                                      autoplay="false"
+                                    ></iframe> -->
                                   </div>
                             </div>
                             <div class="modal-footer">
@@ -119,10 +121,10 @@
             <section id="projects" class="container mt-5">
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card h-100" data-aos="fade-right" data-aos-duration="1000">
                             <div class="card-body" id="our-projects">
                                 <div class="flex-column">
-                                    <h5 class="card-title">Our Projects</h5>
+                                    <h5 class="card-title" id="card-title-main">Our Projects</h5>
                                     <p class="card-text">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem facilisis ipsum interdum imperdiet. Enim, accumsan id in sed posuere. Bibendum et amet orci phasellus vel est,
                                          laoreet nisl. Mattis aenean et integer lacus ultricies morbi.
@@ -132,36 +134,36 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card card-img h-100" data-aos="fade-left" data-aos-duration="1500">
                             <img src="https://mdbootstrap.com/img/new/standard/city/041.jpg" class="card-img-top d-flex align-self-center" alt="...">
                             <div class="card-body">
                                 <h6 class="card-title">One Bedroom
                                     <span class="caret">
-                                        <i class="fas fa-caret-right"></i> <i class="fas fa-caret-right"></i>
+                                        <a href="./one.html"><i class="fas fa-caret-right"></i></a>
                                     </span>
                                 </h6>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card card-img h-100" data-aos="fade-up-right" data-aos-duration="1500">
                             <img src="https://mdbootstrap.com/img/new/standard/city/041.jpg" class="card-img-top d-flex align-self-center" alt="...">
                             <div class="card-body">
                                 <h6 class="card-title">Two Bedroom
                                     <span class="caret">
-                                        <i class="fas fa-caret-right"></i> <i class="fas fa-caret-right"></i>
+                                        <a href="./two.html"><i class="fas fa-caret-right"></i> <i class="fas fa-caret-right"></i></a>
                                     </span>
                                 </h6>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card card-img h-100" data-aos="fade-up-left" data-aos-duration="1500">
                             <img src="https://mdbootstrap.com/img/new/standard/city/041.jpg" class="card-img-top d-flex align-self-center" alt="...">
                             <div class="card-body">
                                 <h6 class="card-title">Three Bedroom 
                                     <span class="caret">
-                                        <i class="fas fa-caret-right"></i> <i class="fas fa-caret-right"></i>
+                                        <a href="./three.html"><i class="fas fa-caret-right"></i> <i class="fas fa-caret-right"></i> <i class="fas fa-caret-right"></i></a>
                                     </span>
                                 </h6>
                             </div>
@@ -170,15 +172,19 @@
                 </div>
             </section>
             <section id="features">
+                <h4 class="text-info text-center text-uppercase mt-3 mb-1">Features</h4>
+                <hr class="line" />
                 <div id="feature-images">
                     <div class="card">
                         <div class="card-body">
-                            <img src="./assets/images/Abeh Signature /DJI_0271.JPG" class="img-fluid rounded hover-shadow" alt="">
+                            <h6>Office Space</h6>
+                            <img src="./assets/images/AbehSignature/IMG_1855.jpg" class="img-fluid rounded hover-shadow" alt="">
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <img src="./assets/images/Abeh Signature /DJI_0271.JPG" class="img-fluid rounded hover-shadow" alt="">
+                            <h6>Swimming Pool</h6>
+                            <img src="./assets/images/AbehSignature/IMG_1933.jpg" class="img-fluid rounded hover-shadow" alt="">
                         </div>
                     </div>
                 </div>
@@ -190,16 +196,16 @@
                 <div class="gallery">
                     <div class="row" data-aos="fade-left" data-aos-duration="1000">
                         <div class="col-md">
-                            <img src="./assets/images/Abeh Signature /DJI_0271.JPG" class="img-fluid rounded hover-shadow" alt="">
+                            <img src="./assets/images/AbehSignature/DJI_0271.JPG" class="img-fluid rounded hover-shadow" alt="">
                         </div>
                         <div class="col-md">
-                            <img src="./assets/images/Abeh Signature /DJI_0271.JPG" class="img-fluid rounded hover-shadow" alt="">
+                            <img src="./assets/images/AbehSignature/DJI_0271.JPG" class="img-fluid rounded hover-shadow" alt="">
                         </div>
                         <div class="col-md">
-                            <img src="./assets/images/Abeh Signature /DJI_0271.JPG" class="img-fluid rounded hover-shadow" alt="">
+                            <img src="./assets/images/AbehSignature/DJI_0271.JPG" class="img-fluid rounded hover-shadow" alt="">
                         </div>
                         <div class="col-md">
-                            <img src="./assets/images/Abeh Signature /DJI_0271.JPG" class="img-fluid rounded hover-shadow" alt="">
+                            <img src="./assets/images/AbehSignature/DJI_0271.JPG" class="img-fluid rounded hover-shadow" alt="">
                         </div>
                     </div>
                 </div>

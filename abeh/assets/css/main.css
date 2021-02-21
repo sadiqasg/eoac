@@ -1,7 +1,39 @@
+:root {
+  --clr-main: #39C0ED;
+  --font-baskervvile: 'Baskervville', serif;
+}
+
 body {
+  background: whitesmoke;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: var(--font-baskervvile);
+}
+
+/* header {
+  background: url('../images/AbehSignature/header-dark.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  color: #fff;
+} */
+
+.btn {
+  padding: 1em !important;
+}
+
+.btn-main {
+  background: #000;
+  color: antiquewhite;
+}
+
+header {
+  background: url('../images/Abeh Signature/DJI_0264.JPG');
+}
+
+nav {
+  background: transparent;
 }
 
 .navbar-brand {
@@ -14,13 +46,27 @@ body {
 .card {
   box-shadow: none;
 }
+.card-img {
+  background: none;
+}
 #projects img {
   display: block;
-  width: 90%;
+  width: 100%;
+}
+
+#projects a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0 7px;
+  border-radius: 50%;
+}
+#projects a:hover {
+  opacity: 0.7;
+  border: 1px solid bisque;
 }
 
 #contact {
-  margin-top: 5em;
+  margin-top: 7em;
 }
 
 #contact .row {
@@ -32,21 +78,35 @@ body {
 }
 
 .card-title {
-  background-color: lightseagreen;
+  background-color: var(--clr-main);
   color: #fff;
-  padding: .3em 1em;
+  padding: .5em 1em;
   width: 12em;
   margin-top: -2em;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
 }
 
+.card-title:hover {
+  transform: scale(1.05);
+}
+
+#card-title-main {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+#card-title-main:hover {
+  transform: none;
+}
+
 .caret {
   float: right;
 }
 
+
 #features {
-  background-color: lightseagreen;
+  margin-top: 5em;
+  background-color: #fff;
   padding: 2em 0;
 }
 
@@ -58,7 +118,19 @@ body {
 
 #feature-images img {
   width: 300px;
+  height: 200px;
 }
 #feature-images .card {
   margin-right: 5px;
+}
+
+.line {
+  width: 100px;
+  border: 2px solid var(--clr-main);
+  color: var(--clr-main);
+  margin: 0 auto;
+}
+
+.gallery {
+  overflow-y: scroll;
 }
