@@ -24,8 +24,8 @@ body {
 }
 
 .btn-main {
-  background: #000;
-  color: antiquewhite;
+  background: var(--clr-main);
+  color: #fff;
 }
 
 header {
@@ -33,7 +33,7 @@ header {
 }
 
 nav {
-  background: transparent;
+  background: #fff;
 }
 
 .navbar-brand {
@@ -104,23 +104,23 @@ nav {
 }
 
 
-#features {
+#amenities {
   margin-top: 5em;
   background-color: #fff;
   padding: 2em 0;
 }
 
-#feature-images {
-  width: 50vw;
+#amenities-images {
+  width: 60vw;
   display: flex;
   margin: 0 auto;
 }
 
-#feature-images img {
-  width: 300px;
+#amenities-images img {
+  width: 350px;
   height: 200px;
 }
-#feature-images .card {
+#amenities-images .card {
   margin-right: 5px;
 }
 
@@ -131,6 +131,52 @@ nav {
   margin: 0 auto;
 }
 
+#gallery {
+  overflow-x: scroll;
+}
+
 .gallery {
-  overflow-y: scroll;
+  width: max-content;
+}
+
+.gallery img {
+  width: 250px;
+  height: 200px;
+}
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+  #amenities-images {
+    width: 60vw;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #amenities-images img {
+    height: 100px;
+  }
+
+  .card-title {
+    width: 10em;
+  }    
+}
+
+@media (max-width: 768px) {
+  #contact-form {
+    margin-top: 2em;
+  }
+}
+
+@media (max-width: 800px) {
+  #amenities-images {
+    width: 60vw;
+    display: block;
+    margin: 0 auto;
+
+  }
+  #amenities-images img {
+    height: 150px;
+  }
 }
