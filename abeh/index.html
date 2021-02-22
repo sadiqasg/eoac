@@ -21,13 +21,44 @@
     <body>
         <header>
             <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
                 <div class="container-fluid">
-                    <a class="navbar-brand text-uppercase text-warning" href="/">
-                        Abeh
+                    <a class="navbar-brand text-uppercase" href="/">
+                        abeh signature
                         <br>
-                        Signature
+                        apartments
                     </a>
+                    <a href="#" class="close"></a>
+                    <div class="d-none d-sm-none d-lg-block brand-icon-section mx-auto order-0 w-75 d-flex justify-content-end">
+                        <div class="highlight-main brand-icon d-flex align-items-center justify-content-center">
+                            <div class="dropdown">
+                                <i
+                                    class="fas fa-th dropdown-toggle"
+                                    type="button"
+                                    id="dropdownMenuButton"
+                                    data-mdb-toggle="dropdown"
+                                    aria-expanded="false"
+                                    onclick="closeNav()"
+                                ></i>
+                                <ul class="dropdown-menu highlight-main" aria-labelledby="dropdownMenuButton">
+                                    <ul class="dropdown-list">
+                                        <li>
+                                            <a class="btn shadow-none menu-header">On This Property</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="./one.html">One Bedroom Apartment</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="./two.html">Two Bedroom Apartment</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="./three.html">Three Bedroom Apartment</a>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -40,9 +71,21 @@
                         <i class="fas fa-bars"></i>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarExample01">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item active">
-                                <!-- <a class="nav-link" aria-current="page" href="#">Home</a> -->
+                        <!-- <div class="pt-1"> -->
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 droplinks">
+                            <div class="d-lg-none">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./details.html">Ambassador Albert Osakwe’s House</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pinion Towers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.abehsignatureapartments.com/" target="_blank">Abeh Signature Appartments</a>
+                                </li>
+                            </div>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-sm btn-outline-main" href="#contact-form">Contact Us</a>
                             </li>
                         </ul>
                     </div>

@@ -23,6 +23,7 @@ body {
   width: 100vw;
   top: 16.5em;
   padding: 5em 0;
+  margin-right: -2em;
 }
 
 .dropdown-list {
@@ -57,7 +58,7 @@ body {
 
 .close {
   position: absolute;
-  left: 25.5em;
+  left: 25.2em;
   width: 32px;
   height: 32px;
   opacity: 1;
